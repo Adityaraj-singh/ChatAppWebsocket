@@ -45,7 +45,7 @@ io.on("connection", (socket) => {
         senderId,
         text,
       });
-      console.log("running getMwssage emit",senderId,text);
+      console.log("running getMwssage emits",senderId,text);
     } catch (err) {
       console.log("-->>", err);
     }
